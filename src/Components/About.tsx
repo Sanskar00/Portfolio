@@ -1,5 +1,5 @@
 import React from "react";
-import { withmainLayout } from "./Layout/withMainLayout";
+import withmainLayout from "./Layout/withMainLayout";
 
 const About = () => {
   return (

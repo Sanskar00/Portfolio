@@ -10,5 +10,17 @@ export const projects = [
       "https://res.cloudinary.com/dbz3rrpld/image/upload/v1646999824/Portfolio/Screenshot_2022-03-03_at_21-18-14_Compify_ajpzer.png",
       "https://res.cloudinary.com/dbz3rrpld/image/upload/v1646999144/Portfolio/Screenshot_2022-03-11_at_17-13-09_Compify_re7e94.png",
     ],
+    url: "https://compify-ecom.herokuapp.com/",
+    sourceCode: "https://github.com/Sanskar00/Compify",
+  },
+  {
+    name: "SocioClan",
+    description:
+      "SocioClan is a social media website where people can socially interact with people by sharing there memories in form of pictures and can like and comment on picture . You can view anyone's profile and their posts.",
+    frontend: ["React", "MaterialUI", "Sass"],
+    backend: ["Firebase "],
+    images: [""],
+    url: "https://socioclan.netlify.app",
+    sourceCode: "https://github.com/Sanskar00/SocioClan",
   },
 ];

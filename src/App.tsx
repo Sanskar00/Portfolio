@@ -12,9 +12,9 @@ function App() {
       <Navbar />
       <SideBar />
       <Dashboard />
-      <SkillsLayout />
-      <AboutLayout />
-      <ProjectsLayout />
+      <SkillsLayout id="skills" />
+      <AboutLayout id="about" />
+      <ProjectsLayout id="projects" />
     </div>
   );
 }

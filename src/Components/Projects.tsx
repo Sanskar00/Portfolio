@@ -1,5 +1,5 @@
 import React from "react";
-import { withmainLayout } from "./Layout/withMainLayout";
+import withmainLayout from "./Layout/withMainLayout";
 import Project from "./ProjectsComponents/Project";
 import { projects } from "./ProjectsComponents/ProjectsArray";
 
