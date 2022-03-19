@@ -6,6 +6,7 @@ type TechProps = {
 };
 
 const TechLayout = ({ techName, techArray }: TechProps) => {
+  console.log(techArray.length);
   return (
     <span className="flex gap-5 ">
       <h3 className="text-cyan text-lg font-bold">{techName}</h3>

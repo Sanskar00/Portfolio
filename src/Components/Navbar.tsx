@@ -33,8 +33,8 @@ const navigationIcon = [
 
 const Navbar = () => {
   return (
-    <div className="fixed bottom-0 grid w-screen place-content-center md:bottom-10 ">
-      <div className="text-3xl w-76  text-white h-16 place-items-center px-8 border-white/75 border-2 md:rounded-full flex gap-5  bg-gradient-to-br from-white/70 to-slate-300/30  ">
+    <div className="fixed bottom-5 grid w-screen place-content-center md:bottom-10 ">
+      <div className="text-3xl w-76  text-white h-16 place-items-center px-12 md:px-8 border-white/75 border-2 rounded-full flex gap-5  bg-gradient-to-br from-white/70 to-slate-300/30  ">
         {navigationIcon.map((icon) => {
           return (
             <ScrollIntoView selector={icon.element}>

@@ -5,21 +5,26 @@ const SideBar = () => {
   const socialMediaIcon = [
     {
       logo: <FiTwitter />,
+      url: "https://twitter.com/Sanskar_Saxena_",
     },
     {
       logo: <FiLinkedin />,
+      url: "https://www.linkedin.com/in/sanskar-saxena-6466611a7/",
     },
     {
       logo: <FiGithub />,
+      url: "https://github.com/Sanskar00",
     },
   ];
 
   return (
-    <div className="fixed w-screen text-white grid gap-3 text-xl left-10 top-1/2 -translate-y-1/2 ">
-      {socialMediaIcon.map((icon) => (
-        <span className="hover:scale-125 duration-300 w-fit hover:text-cyan cursor-pointer">
-          {icon.logo}
-        </span>
+    <div className="relative md:fixed w-screen text-white flex md:grid gap-3 text-xl justify-center bottom-36 md:bottom-1/2  md:justify-start md:translate-x-0 md:mb-0 md:left-10 md:top-1/2 md:-translate-y-1/2  ">
+      {socialMediaIcon.map((media) => (
+        <a target="_blank" href={`${media.url}`} rel="noopener noreferrer">
+          <span className="hover:scale-125 duration-300 w-fit hover:text-cyan cursor-pointer">
+            {media.logo}
+          </span>
+        </a>
       ))}
     </div>
   );

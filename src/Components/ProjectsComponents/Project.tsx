@@ -19,7 +19,7 @@ const Project = (props: ProjectsArray) => {
   const { projectObject } = props;
 
   return (
-    <>
+    <div className="my-12">
       <h1 className="text-cyan my-8  font-bold text-2xl mb-4">
         {projectObject.name}
       </h1>
@@ -51,7 +51,7 @@ const Project = (props: ProjectsArray) => {
         </a>
       </div>
       {/* <ProjectImage images={projectObject.images} /> */}
-    </>
+    </div>
   );
 };
 

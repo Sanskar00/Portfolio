@@ -14,20 +14,20 @@ const Dashboard = () => {
         Fullstack Developer
       </h1>
       <section className="flex gap-2 px-6 ">
-        <ScrollIntoView selector="contact">
+        <ScrollIntoView selector="#contact">
           <button className="w-24 px-4 py-1 rounded border-cyan  text-cyan border-2 hover:bg-cyan/20 hover:font-bold ">
             Contact
           </button>
         </ScrollIntoView>
-
+        {/* 
         <button className="w-24 px-4 py-1 rounded border-cyan text-cyan border-2 hover:bg-cyan/20 hover:font-bold   ">
           <span className="flex place-items-center justify-center text-center gap-2">
             CV {<AiOutlineDownload />}
           </span>
-        </button>
+        </button> */}
       </section>
       <div
-        className="w-44 h-44 mt-12 md:w-72 md:h-72 
+        className="w-72 h-72 mt-12 md:w-72 md:h-72 
        rounded-full border-2 border-cyan absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"
       ></div>
     </div>
