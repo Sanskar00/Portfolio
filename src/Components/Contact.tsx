@@ -46,7 +46,7 @@ const Contact = () => {
         Do you want any help for designing or building a new website?
       </h1>
       <form
-        action="https://formsubmit.co/d102ac3bb444c443a17875d88798c62d"
+        action={"https://formsubmit.co/d102ac3bb444c443a17875d88798c62d"}
         method="POST"
         className=" flex flex-col md:grid md:grid-cols-2  my-8 gap-8 md:w-3/4 "
       >

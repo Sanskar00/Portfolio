@@ -39,18 +39,28 @@ const Project = (props: ProjectsArray) => {
         />
       </span>
       <div className="flex gap-4 my-4">
-        <a href={projectObject.url} className="appearance-none">
+        <a
+          href={projectObject.url}
+          className="appearance-none"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="w-fit h-fit px-4 py-1 rounded border-cyan  text-cyan border-2 hover:bg-cyan/20 hover:font-bold hover:duration-300   ">
             See It Live
           </button>
         </a>
-        <a href={projectObject.sourceCode} className="appearance-none">
+        <a
+          href={projectObject.sourceCode}
+          className="appearance-none "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="w-fit h-fit px-4 py-1 rounded border-cyan  text-cyan border-2 hover:bg-cyan/20 hover:font-bold hover:duration-300  ">
             Source Code
           </button>
         </a>
       </div>
-      {/* <ProjectImage images={projectObject.images} /> */}
+      <ProjectImage images={projectObject.images} />
     </div>
   );
 };
