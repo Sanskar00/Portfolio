@@ -8,7 +8,7 @@ const About = () => {
       <p className="text-lg text-slate-400">
         Hey! I’m Sanskar Saxena a FullStack Developer. I emphasis more on
         frontend part but can also do backend . I am perpetually curious about
-        designing and buliding a new website .
+        designing and buliding a new website.
       </p>
     </div>
   );
