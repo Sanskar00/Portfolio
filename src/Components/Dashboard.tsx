@@ -23,12 +23,11 @@ const Dashboard = () => {
 				{/* 
         <button className="w-24 px-4 py-1 rounded border-cyan text-cyan border-2 hover:bg-cyan/20 hover:font-bold   ">
           <span className="flex place-items-center justify-center text-center gap-2">
-            CV {<AiOutlineDownload />}
           </span>
         </button> */}
 			</section>
 			<div
-				className="w-72 h-72 mt-12 md:w-72 md:h-72 
+				className="w-[256px] h-[256px] mt-12 md:w-72 md:h-72 
        rounded-full border-2 border-cyan absolute top-1/2 -translate-y-1/2"
 			>
 				<img
